@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+  <title>Library</title>
+</head>
+
+<body>
+  <header>
+    <h1>Weather App</h1>
+  </header>
+  <div id="container">
+    <div id="weatherCardSearch">
+      <div class="weather-component-search">
+       
+        <input type="text" id="cityInput" class="weather-search" placeholder="Search for a city" />
+        <button type="submit" class="button-search">Submit</button>
+      </div>
+    </div>
+  </div>
+  <div id="weatherContainer">
+    <div class="cityWeather loading">
+      <h2 class="city">Weather in Nottingham, GB</h2>
+      <h1 class="temperature">10.51°c</h2>
+        <div class="flex">
+          <img src="https://openweathermap.org/img/wn/04n.png" alt="" class="icon" />
+          <div class="description">Cloudy</div>
+        </div>
+        <h3 class="humidity">Humidity: 61%</h3>
+        <h3 class="windSpeed">WindSpeed: 8.1 mph</h3>
+    </div>
+  </div>
+
+
+  </div>
+  <script src="index2.js"></script>
+</body>
+
+</html>
