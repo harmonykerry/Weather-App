@@ -8,7 +8,7 @@
 
 ## Project Link
 
-Click [here](https://natasha-mann.github.io/weather-dashboard/) to view the project on GitHub pages.
+Click [here]( https://harmonykerry.github.io/Weather-App/) to view the project on GitHub pages.
 
 ## About the Project
 
